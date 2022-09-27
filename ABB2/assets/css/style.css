@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgba(255, 255, 255, 0);
+  
+
+}
+header a{
+    margin-right: 20px;
+    color: #666666;
+    font-size: 14px;
+}
+#karyera{
+    border: 1px solid;
+    color: #0056c1;
+    border-radius: 30px;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+.right i{
+  font-size: 11px;
+  color: #666666;
+}
+.left a:hover{
+    border-bottom: 1px solid grey;
+    color: #666666;
+}
+#karyera:hover{
+    background-color: #0056c1;
+    color: white;
+}
+.sag i{
+    font-size: 50px;
+    color: #262626;
+}
+@media(max-width:576px){
+    header{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+}
+@media(min-width:1400px){
+    .top{
+        display: none;
+    }
+    .barsclick{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+.search input{
+    width: 96%;
+    padding: 30px 50px;
+    /* padding-left: 50px; */
+    font-size: 40px;
+    color: #666666e2;
+  
+    border: none;
+    outline: none;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.search i{
+    font-size: 30px;
+    font-weight: 200;
+    padding-right: 30px;
+}
+.dil img{
+width: 40%;
+padding: 15px;
+}
+.dil{
+   background-color: white;
+   width: 10%;
+   box-shadow: 0 0 17px 0 #a19ba1;
+   position: absolute;
+   top: 52px;
+   right: 110px;
+   display: none;
+   transition: 1s;
+   
+}
+.right{
+    position: relative;
+    transition: 5s;
+}
+#azdil{
+
+    position: relative;
+    margin-left: 20px;
+    transition: 1s;
+
+    
+}
+
+#azdil i {
+    transition: 1s;
+}
+#trin{
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    color: white;
+  
+}
+.active{
+    display: block !important;
+}
+.rotate{
+    rotate: 180deg;
+}
+#phone{
+    margin-left: 20px;
+}
+.barsclick .top{
+    background-color: #0056c1;
+    padding: 14px 0;
+    color: white;
+    text-align: center;
+}
+.barsclick .end{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.box{
+    background-color: #f9f9f9;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+.barsclick{
+    visibility: hidden;
+    opacity: 0;
+}
+.barsclickvisible{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
